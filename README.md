@@ -10,7 +10,7 @@
 > Show Claude your scorecard. It finds the strokes you're actually losing — and builds the practice to win them back.
 
 <p align="center">
-  <img src="assets/hero.svg" alt="rangey reads your scorecard, names your biggest leak (Putting, ~3 strokes lost), and the next round drops 92 to 86" width="800">
+  <img src="assets/hero.gif" alt="rangey reads your scorecard, names your biggest leak (Putting, ~3 strokes lost), and the next round drops 92 to 86" width="800">
 </p>
 
 **rangey** is a free, open-source [Claude skill](https://www.anthropic.com/news/skills) that turns a photo of your scorecard into a **strokes-lost breakdown**, names your single biggest leak, and builds a **science-based practice session** to fix it — then tracks whether it worked.
