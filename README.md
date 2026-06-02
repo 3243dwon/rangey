@@ -7,6 +7,8 @@
   <img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen">
 </p>
 
+<p align="center"><b><a href="README.zh-CN.md">🇨🇳 中文使用说明 →</a></b></p>
+
 > Show Claude your scorecard. It finds the strokes you're actually losing — and builds the practice to win them back.
 
 <p align="center">
