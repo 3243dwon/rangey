@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-practice_log — the adaptive loop for the range-rat skill.
+practice_log — the adaptive loop for the rangey skill.
 
 Logs each practice session's focus and pressure-test score, then shows the
 trend on a given skill over time so the next session can be adjusted. Plain
@@ -22,7 +22,7 @@ import os
 import sys
 from datetime import date
 
-LOG_PATH = os.environ.get("RANGE_RAT_LOG", "practice_log.json")
+LOG_PATH = os.environ.get("RANGEY_LOG", "practice_log.json")
 
 
 def load():
@@ -122,7 +122,7 @@ def cmd_list(args):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="range-rat practice log")
+    ap = argparse.ArgumentParser(description="rangey practice log")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     a = sub.add_parser("add", help="log a session")

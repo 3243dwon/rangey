@@ -1,12 +1,12 @@
-# 🏌️ range-rat
+# 🏌️ rangey
 
 > Show Claude your scorecard. It finds the strokes you're actually losing — and builds the practice to win them back.
 
 <p align="center">
-  <img src="assets/hero.svg" alt="range-rat reads your scorecard, names your biggest leak (Putting, ~3 strokes lost), and the next round drops 92 to 86" width="800">
+  <img src="assets/hero.svg" alt="rangey reads your scorecard, names your biggest leak (Putting, ~3 strokes lost), and the next round drops 92 to 86" width="800">
 </p>
 
-**range-rat** is a free, open-source [Claude skill](https://www.anthropic.com/news/skills) that turns a photo of your scorecard into a **strokes-lost breakdown**, names your single biggest leak, and builds a **science-based practice session** to fix it — then tracks whether it worked.
+**rangey** is a free, open-source [Claude skill](https://www.anthropic.com/news/skills) that turns a photo of your scorecard into a **strokes-lost breakdown**, names your single biggest leak, and builds a **science-based practice session** to fix it — then tracks whether it worked.
 
 No app to download. No subscription. It runs inside the Claude you already use.
 
@@ -63,7 +63,7 @@ The leak shrinks. The score follows.
 
 ## "Can't I just ask Claude for a practice plan?"
 
-You can — and you'll get a generic, driver-heavy drill list, because that's what *feels* like practice. range-rat is the prompt you don't know how to write: the motor-learning research baked in, and **your own round data** deciding what to work on. That last part is what a cold chat can't reproduce — it doesn't have your scorecard.
+You can — and you'll get a generic, driver-heavy drill list, because that's what *feels* like practice. rangey is the prompt you don't know how to write: the motor-learning research baked in, and **your own round data** deciding what to work on. That last part is what a cold chat can't reproduce — it doesn't have your scorecard.
 
 ---
 
@@ -71,7 +71,7 @@ You can — and you'll get a generic, driver-heavy drill list, because that's wh
 
 The space is crowded and paywalled — CORE Golf, Break X, and others charge monthly for static drill libraries. By their own users' reviews, they share a blind spot: they don't understand how *you* play, and they don't evolve with your game.
 
-range-rat is the opposite, and it's **free and open-source**:
+rangey is the opposite, and it's **free and open-source**:
 
 - **Starts from your data** — your scorecard, not a menu
 - **Adaptive** — targets your specific leak and re-checks it every round
@@ -91,7 +91,7 @@ range-rat is the opposite, and it's **free and open-source**:
 
 ## Quickstart
 
-1. Put the `range-rat/` folder in your skills directory (or just open these files in Claude — works on Claude.ai, Claude Code, and the API).
+1. Put the `rangey/` folder in your skills directory (or just open these files in Claude — works on Claude.ai, Claude Code, and the API).
 2. Show Claude a photo of your scorecard, or tell it the round:
    > *"Shot 92 — 37 putts, hit 7 fairways and 6 greens, one penalty."*
 3. It finds your leak and builds the session. Go practice.
@@ -111,7 +111,7 @@ python scripts/practice_log.py add --focus putting --score 7
 
 ```
 your-skills-directory/
-└── range-rat/
+└── rangey/
     ├── SKILL.md
     ├── README.md
     └── scripts/

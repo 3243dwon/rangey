@@ -5,7 +5,7 @@
   <circle cx="28" cy="27" r="6" fill="#ff5f56"/>
   <circle cx="50" cy="27" r="6" fill="#febc2e"/>
   <circle cx="72" cy="27" r="6" fill="#28c840"/>
-  <text x="100" y="32" font-size="14.5" fill="#768390">range-rat<tspan fill="#4f5b66">  ·  scorecard read</tspan></text>
+  <text x="100" y="32" font-size="14.5" fill="#768390">rangey<tspan fill="#4f5b66">  ·  scorecard read</tspan></text>
   <line x1="0" y1="54" x2="820" y2="54" stroke="#21262d"/>
 
   <!-- prompt -->

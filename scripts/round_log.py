@@ -24,7 +24,7 @@ import os
 import sys
 from datetime import date
 
-LOG_PATH = os.environ.get("RANGE_RAT_ROUNDS", "round_log.json")
+LOG_PATH = os.environ.get("RANGEY_ROUNDS", "round_log.json")
 
 # Rough, defensible amateur benchmarks. Targets are "typical for this level",
 # so the read finds your weak spot *relative to your own level* — not vs a pro.
@@ -209,7 +209,7 @@ def cmd_show(args):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="range-rat round log — find your biggest leak")
+    ap = argparse.ArgumentParser(description="rangey round log — find your biggest leak")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     a = sub.add_parser("add", help="log a round and read your biggest leak")

@@ -1,9 +1,9 @@
 ---
-name: range-rat
+name: rangey
 description: Generate adaptive, science-based golf practice sessions tailored to a player's specific weakness, available time, and resources — using motor-learning principles (blocked vs. random vs. pressure practice) instead of mindless ball-beating. Use whenever someone wants to plan golf practice, asks what to work on, has limited range time and a bucket of balls, wants to fix a specific part of their game (slice, short game, putting, approach, driving), or wants practice that actually transfers to the course. Trigger on phrases like "what should I practice", "plan my range session", "I have 30 minutes at the range", "help me fix my slice", "golf practice plan", "make my practice count", "here's my scorecard — what should I work on", "what's costing me the most strokes", or any request to turn a round's results (or a scorecard photo) into a practice focus.
 ---
 
-# Range Rat
+# Rangey
 
 Most golfers waste the range. They beat a bucket of balls with the driver, feel good, and then spray it on Saturday. This skill exists to fix that — by building practice sessions the way motor-learning research says skills actually transfer, not the way that *feels* productive.
 
