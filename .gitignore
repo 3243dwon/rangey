@@ -1,0 +1,14 @@
+# Local data the user generates — never ship someone's golf stats
+*_log.json
+practice_log.json
+round_log.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Internal launch notes — not part of the public repo
+LAUNCH.md
+
+# macOS
+.DS_Store
