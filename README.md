@@ -1,5 +1,12 @@
 # 🏌️ rangey
 
+<p align="center">
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-green"></a>
+  <img alt="Python 3, zero dependencies" src="https://img.shields.io/badge/python-3%20·%20zero%20deps-blue">
+  <img alt="Claude skill" src="https://img.shields.io/badge/Claude-skill-8A2BE2">
+  <img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen">
+</p>
+
 > Show Claude your scorecard. It finds the strokes you're actually losing — and builds the practice to win them back.
 
 <p align="center">
@@ -132,3 +139,7 @@ your-skills-directory/
 ## License
 
 MIT — use it, fork it, build on it.
+
+---
+
+*If rangey finds a leak you didn't know you had, ⭐ it — that's what helps the next golfer find it.*
