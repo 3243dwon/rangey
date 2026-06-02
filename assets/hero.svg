@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 478" width="820" height="478" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+  <rect x="0.5" y="0.5" width="819" height="477" rx="14" fill="#0d1117" stroke="#30363d"/>
+
+  <!-- title bar -->
+  <circle cx="28" cy="27" r="6" fill="#ff5f56"/>
+  <circle cx="50" cy="27" r="6" fill="#febc2e"/>
+  <circle cx="72" cy="27" r="6" fill="#28c840"/>
+  <text x="100" y="32" font-size="14.5" fill="#768390">range-rat<tspan fill="#4f5b66">  ·  scorecard read</tspan></text>
+  <line x1="0" y1="54" x2="820" y2="54" stroke="#21262d"/>
+
+  <!-- prompt -->
+  <text x="28" y="90" font-size="15"><tspan fill="#3fb950">❯ </tspan><tspan fill="#adbac7">here's my scorecard — what should I work on?</tspan></text>
+
+  <!-- header -->
+  <text x="28" y="128" font-size="15.5" fill="#e6edf3">⛳  WHERE YOUR STROKES GO<tspan fill="#636e7b" font-size="14">    mid · round of 92</tspan></text>
+
+  <!-- row 1: Putting (the leak) -->
+  <rect x="250" y="155" width="345" height="15" rx="3" fill="#f0883e"/>
+  <text x="30" y="168" font-size="15" fill="#adbac7">Putting</text>
+  <text x="182" y="168" font-size="15" fill="#f0883e" font-weight="bold">3.0</text>
+  <text x="250" y="189" font-size="13" fill="#768390">└ 37 putts vs ~34 for your level</text>
+
+  <!-- row 2: Off the tee -->
+  <rect x="250" y="203" width="115" height="15" rx="3" fill="#388bfd"/>
+  <text x="30" y="216" font-size="15" fill="#adbac7">Off the tee</text>
+  <text x="182" y="216" font-size="15" fill="#adbac7">1.0</text>
+  <text x="250" y="237" font-size="13" fill="#768390">└ 7/14 fairways (50%) vs ~45%, 1 penalty</text>
+
+  <!-- row 3: Short game -->
+  <rect x="250" y="251" width="92" height="15" rx="3" fill="#388bfd"/>
+  <text x="30" y="264" font-size="15" fill="#adbac7">Short game</text>
+  <text x="182" y="264" font-size="15" fill="#adbac7">0.8</text>
+  <text x="250" y="285" font-size="13" fill="#768390">└ 3/12 up-and-downs (25%) vs ~33%</text>
+
+  <!-- row 4: Approach -->
+  <rect x="250" y="299" width="6" height="15" rx="2" fill="#30363d"/>
+  <text x="30" y="312" font-size="15" fill="#adbac7">Approach</text>
+  <text x="182" y="312" font-size="15" fill="#636e7b">0.0</text>
+  <text x="250" y="333" font-size="13" fill="#768390">└ 6/18 greens (33%) vs ~30%</text>
+
+  <!-- biggest-leak callout -->
+  <rect x="24" y="352" width="566" height="30" rx="6" fill="#f0883e" fill-opacity="0.12" stroke="#f0883e" stroke-opacity="0.35"/>
+  <text x="38" y="372" font-size="15" fill="#e6edf3">🎯  Biggest leak: <tspan fill="#f0883e" font-weight="bold">Putting</tspan><tspan fill="#768390">   (~3.0 strokes vs your level)</tspan></text>
+
+  <!-- divider -->
+  <line x1="24" y1="402" x2="796" y2="402" stroke="#21262d"/>
+
+  <!-- the loop -->
+  <text x="30" y="430" font-size="14.5"><tspan fill="#636e7b">after practicing it:   </tspan><tspan fill="#768390">92</tspan><tspan fill="#636e7b"> → </tspan><tspan fill="#3fb950" font-weight="bold">86</tspan><tspan fill="#3fb950">    ↘ 6 strokes — the leak shrank</tspan></text>
+
+  <!-- caption -->
+  <text x="30" y="458" font-size="12.5" fill="#56606b">free · open-source · reads a scorecard photo, finds your biggest leak, builds the practice</text>
+</svg>
